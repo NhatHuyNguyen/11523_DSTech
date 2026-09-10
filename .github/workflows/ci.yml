@@ -12,6 +12,6 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install -r requirements.txt
-      - run: pip install flake8 pytest
+      # - run: pip install flake8 pytest
       - run: flake8 . --max-line-length=100
       - run: pytest -q

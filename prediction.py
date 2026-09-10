@@ -3,7 +3,7 @@ print("bob threshold 0.5")
 print(2+2)
 
 "xxxx"
-"protewct maixn"
+"protewct maixnddd"
 "xxxx"
 def rmse():
     """

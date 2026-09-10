@@ -1,5 +1,5 @@
 print("hello world")
-print("ada threshold 0.7")
+print("bob threshold 0.5")
 print(2+2)
 
 def rmse():

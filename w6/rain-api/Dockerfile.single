@@ -1,0 +1,15 @@
+# Dockerfile — rain-prediction API
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# 1) dependencies FIRST — this layer is cached across code edits
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# 2) then the code and the model
+COPY app.py .
+COPY model/ ./model/
+
+EXPOSE 8000
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]

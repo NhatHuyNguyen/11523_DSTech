@@ -1,3 +1,5 @@
 mlruns
 *.png
 *.db
+__pycache__
+*.tar

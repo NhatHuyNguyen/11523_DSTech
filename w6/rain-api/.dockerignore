@@ -1,0 +1,18 @@
+# python
+__pycache__
+*.pyc
+.venv
+
+# dev/git noise
+.git
+.vscode
+*.md
+
+# data & notebooks
+data/
+*.csv
+*.ipynb
+
+# secrets — never copy these into an image
+.env
+*.pem

@@ -1,0 +1,15 @@
+version,line,true,label_pred,evidence,failure,text
+V1,24,positive,negative,three days without charging,wrong label,I have yet to run this new battery below two bars and that's three days without charging.
+V1,257,negative,negative,thick,unsupported evidence,"The cable looks so thin and flimsy, it is scary."
+V2,664,positive,positive,"well-designed, very nice color",unsupported evidence,Its well-designed and very sharp -- the blue is a very nice color.
+V2,24,positive,negative,three days without charging,wrong label,I have yet to run this new battery below two bars and that's three days without charging.
+V2,257,negative,negative,thick and flimsy,unsupported evidence,"The cable looks so thin and flimsy, it is scary."
+V2,935,positive,negative,get cut off,wrong label,"You get extra minutes so that you can carry out the call and not get cut off."""
+V2,520,negative,negative,not impressed with this and would not recommend this item to anyone,unsupported evidence,I am not impressed with this and i would not recommend this item to anyone.
+V2,949,positive,negative,nice,wrong label,nice leather.
+V2,978,positive,negative,seems to work fine,wrong label,":-)Oh, the charger seems to work fine."
+V3,238,positive,positive,I recommend you this case!!,unsupported evidence,Authentic leather with nice shine and comfort .I recommend you this case !!
+V3,717,positive,negative,so I just purchased another one because this is the best headset I've ever owned.,wrong label,"It quit working after I'd used it for about 18 months, so I just purchased another one because this is the best headset I've ever owned."
+V3,24,positive,negative,three days without charging,wrong label,I have yet to run this new battery below two bars and that's three days without charging.
+V3,935,positive,negative,get extra minutes so that you can carry out the call and not get cut off,wrong label,"You get extra minutes so that you can carry out the call and not get cut off."""
+V3,949,positive,negative,nice,wrong label,nice leather.

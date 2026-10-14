@@ -1,0 +1,4 @@
+version,n,accuracy,precision_pos,recall_pos,f1_pos,precision_neg,recall_neg,f1_neg,macro_f1,json_valid,schema_valid,evidence_present,evidence_exact,mean_s,median_s,mean_compute_s
+V1,100,0.99,1.0,0.98,0.99,0.98,1.0,0.99,0.99,1.0,1.0,0.99,0.96,0.856,0.76,0.794
+V2,100,0.96,1.0,0.92,0.958,0.926,1.0,0.962,0.96,1.0,1.0,0.97,0.95,0.987,0.945,0.969
+V3,100,0.96,1.0,0.92,0.958,0.926,1.0,0.962,0.96,1.0,1.0,0.99,0.96,0.849,0.81,0.826

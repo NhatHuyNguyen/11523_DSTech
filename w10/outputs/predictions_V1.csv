@@ -1,0 +1,131 @@
+version,line,text,true,raw,seconds,compute_s,model,prompt_tokens,output_tokens,error,json_valid,schema_valid,label_pred,evidence,evidence_present,evidence_exact,problem,correct
+V1,911,"Good show, Samsung.",positive,"{""label"": ""positive"", ""evidence"": ""Good show""}",5.38,0.98,qwen2.5:3b,97,15,,True,True,positive,Good show,True,True,,True
+V1,679,"It works fine on my Motorola 325 cellphone, and a lot better than the worn-out battery did.",positive,"{""label"": ""positive"", ""evidence"": ""a lot better than the worn-out battery did.""}",1.04,1.03,qwen2.5:3b,114,23,,True,True,positive,a lot better than the worn-out battery did.,True,True,,True
+V1,267,Returned 8 hours later.,negative,"{""label"": ""negative"", ""evidence"": ""8 hours later""}",0.71,0.7,qwen2.5:3b,98,16,,True,True,negative,8 hours later,True,True,,True
+V1,472,The update procedure is difficult and cumbersome.,negative,"{""label"": ""negative"", ""evidence"": ""update procedure is difficult and cumbersome""}",0.86,0.83,qwen2.5:3b,99,19,,True,True,negative,update procedure is difficult and cumbersome,True,True,,True
+V1,868,"Nice case, feels good in your hands.",positive,"{""label"": ""positive"", ""evidence"": ""Nice case""}",0.69,0.66,qwen2.5:3b,101,15,,True,True,positive,Nice case,True,True,,True
+V1,882,Having trouble with volume.,negative,"{""label"": ""negative"", ""evidence"": ""trouble""}",0.69,0.66,qwen2.5:3b,97,15,,True,True,negative,trouble,True,True,,True
+V1,723,This is simply the BEST bluetooth headset for sound quality!,positive,"{""label"": ""positive"", ""evidence"": ""BEST""}",0.63,0.62,qwen2.5:3b,102,14,,True,True,positive,BEST,True,True,,True
+V1,930,As I said above....PRETTY USELESS!,negative,"{""label"": ""negative"", ""evidence"": ""PRETTY USELESS""}",0.73,0.7,qwen2.5:3b,100,16,,True,True,negative,PRETTY USELESS,True,True,,True
+V1,807,"At first I thought I was grtting a good deal at $7.44, until I plugged it into my phone (V3c Razr).",negative,"{""label"": ""negative"", ""evidence"": ""until I plugged it into my phone (V3c razr).""}",1.25,1.22,qwen2.5:3b,124,27,,True,True,negative,until I plugged it into my phone (V3c razr).,True,False,,True
+V1,299,Customer service was terrible.,negative,"{""label"": ""negative"", ""evidence"": ""terrible""}",0.67,0.66,qwen2.5:3b,97,15,,True,True,negative,terrible,True,True,,True
+V1,596,"What possesed me to get this junk, I have no idea...",negative,"{""label"": ""negative"", ""evidence"": ""junk""}",0.72,0.68,qwen2.5:3b,106,15,,True,True,negative,junk,True,True,,True
+V1,153,I had absolutely no problem with this headset linking to my 8530 Blackberry Curve!,positive,"{""label"": ""positive"", ""evidence"": ""no problem""}",0.71,0.69,qwen2.5:3b,111,15,,True,True,positive,no problem,True,True,,True
+V1,788,It is simple to use and I like it.,positive,"{""label"": ""positive"", ""evidence"": ""I like it""}",0.73,0.71,qwen2.5:3b,101,16,,True,True,positive,I like it,True,True,,True
+V1,756,Then a few days later the a puff of smoke came out of the phone while in use.,negative,"{""label"": ""negative"", ""evidence"": ""puff of smoke""}",0.81,0.78,qwen2.5:3b,111,17,,True,True,negative,puff of smoke,True,True,,True
+V1,328,The plug did not work very well.,negative,"{""label"": ""negative"", ""evidence"": ""plug did not work very well""}",0.84,0.83,qwen2.5:3b,99,19,,True,True,negative,plug did not work very well,True,True,,True
+V1,637,These are fabulous!,positive,"{""label"": ""positive"", ""evidence"": ""fabulous""}",0.67,0.66,qwen2.5:3b,95,15,,True,True,positive,fabulous,True,True,,True
+V1,600,"For the price on Amazon, it is an excellent product, which I would highly recommend.",positive,"{""label"": ""positive"", ""evidence"": ""which I would highly recommend""}",0.84,0.81,qwen2.5:3b,109,18,,True,True,positive,which I would highly recommend,True,True,,True
+V1,48,AFTER ARGUING WITH VERIZON REGARDING THE DROPPED CALLS WE RETURNED THE PHONES AFTER TWO DAYS.,negative,"{""label"": ""negative"", ""evidence"": ""ARGUING WITH VERIZON""}",0.95,0.92,qwen2.5:3b,119,20,,True,True,negative,ARGUING WITH VERIZON,True,True,,True
+V1,295,The voice recognition thru the handset is excellent.,positive,"{""label"": ""positive"", ""evidence"": ""voice recognition thru the handset is excellent""}",0.9,0.88,qwen2.5:3b,100,20,,True,True,positive,voice recognition thru the handset is excellent,True,True,,True
+V1,664,Its well-designed and very sharp -- the blue is a very nice color.,positive,"{
+  ""label"": ""positive"",
+  ""evidence"": ""Its well-designed and very sharp -- the blue is a very nice color.""
+}",1.38,1.36,qwen2.5:3b,107,31,,True,True,positive,Its well-designed and very sharp -- the blue is a very nice color.,True,True,,True
+V1,412,I highly recommend this device to everyone!,positive,"{""label"": ""positive"", ""evidence"": ""highly recommend this device to everyone""}",0.89,0.87,qwen2.5:3b,99,20,,True,True,positive,highly recommend this device to everyone,True,True,,True
+V1,260,Great for using with your home stereo.,positive,"{""label"": ""positive"", ""evidence"": ""Great""}",0.63,0.62,qwen2.5:3b,100,14,,True,True,positive,Great,True,True,,True
+V1,716,The phone crashed completely and now I have to get it replaced.,negative,"{""label"": ""negative"", ""evidence"": ""phone crashed""}",0.69,0.68,qwen2.5:3b,104,15,,True,True,negative,phone crashed,True,True,,True
+V1,892,"Fits comfortably, came with three sizes of earbud tips.",positive,"{""label"": ""positive"", ""evidence"": ""fits comfortably""}",0.69,0.68,qwen2.5:3b,104,15,,True,True,positive,fits comfortably,True,False,,True
+V1,276,Reversible plug works great.,positive,"{""label"": ""positive"", ""evidence"": ""Reversible plug works great""}",0.8,0.79,qwen2.5:3b,98,18,,True,True,positive,Reversible plug works great,True,True,,True
+V1,193,Lately they have been extremely nice and helpful on the phone.,positive,"{""label"": ""positive"", ""evidence"": ""extremely nice and helpful""}",0.83,0.81,qwen2.5:3b,104,18,,True,True,positive,extremely nice and helpful,True,True,,True
+V1,601,Their Research and Development division obviously knows what they're doing.,positive,"{""label"": ""positive"", ""evidence"": ""knows what they're doing""}",0.86,0.85,qwen2.5:3b,104,19,,True,True,positive,knows what they're doing,True,True,,True
+V1,465,poor voice clarity.,negative,"{""label"": ""negative"", ""evidence"": ""poor""}",0.67,0.66,qwen2.5:3b,97,15,,True,True,negative,poor,True,True,,True
+V1,644,"They do not last forever, but is not overly expensive to replace.Easy to operate and the sound is much better than others I have tried.",positive,"{
+  ""label"": ""positive"",
+  ""evidence"": ""Easy to operate and the sound is much better than others I have tried.""
+}",1.42,1.39,qwen2.5:3b,120,31,,True,True,positive,Easy to operate and the sound is much better than others I have tried.,True,True,,True
+V1,859,"If I take a picture, the battery drops a bar, and starts beeping, letting me know its dieing.",negative,"{""label"": ""negative"", ""evidence"": ""dieing""}",0.71,0.7,qwen2.5:3b,115,15,,True,True,negative,dieing,True,True,,True
+V1,966,I cannot make calls at certain places.,negative,"{""label"": ""negative"", ""evidence"": ""cannot make calls""}",0.73,0.7,qwen2.5:3b,99,16,,True,True,negative,cannot make calls,True,True,,True
+V1,899,Everything about this product is wrong.First,negative,"{""label"": ""negative"", ""evidence"": ""Everything about this product is wrong""}",0.86,0.83,qwen2.5:3b,100,19,,True,True,negative,Everything about this product is wrong,True,True,,True
+V1,294,DO NOT PURCHASE THIS PHONE.,negative,"{""label"": ""negative"", ""evidence"": ""DO NOT PURCHASE THIS PHONE""}",0.87,0.83,qwen2.5:3b,99,19,,True,True,negative,DO NOT PURCHASE THIS PHONE,True,True,,True
+V1,509,great...no problems at all!.,positive,"{""label"": ""positive"", ""evidence"": ""great...no problems at all!""}",0.88,0.87,qwen2.5:3b,100,20,,True,True,positive,great...no problems at all!,True,True,,True
+V1,238,Authentic leather with nice shine and comfort .I recommend you this case !!,positive,"{
+  ""label"": ""positive"",
+  ""evidence"": ""I recommend you this case !""
+}",1.03,1.02,qwen2.5:3b,108,23,,True,True,positive,I recommend you this case !,True,True,,True
+V1,374,The worst phone I've ever had.... Only had it for a few months.,negative,"{""label"": ""negative"", ""evidence"": ""worst""}",0.7,0.69,qwen2.5:3b,107,15,,True,True,negative,worst,True,True,,True
+V1,68,It feels more comfortable than most headsets because I wear glasses and that gets in the way sometimes.,positive,"{""label"": ""positive"", ""evidence"": ""feels more comfortable than most headsets""}",0.96,0.95,qwen2.5:3b,111,21,,True,True,positive,feels more comfortable than most headsets,True,True,,True
+V1,521,My only complaint is the standard sound volume is a little low even when turned up to 5(of 5),negative,"{""label"": ""negative"", ""evidence"": ""standard sound volume is a little low""}",0.92,0.91,qwen2.5:3b,114,20,,True,True,negative,standard sound volume is a little low,True,True,,True
+V1,373,Battery life is also great!,positive,"{""label"": ""positive"", ""evidence"": ""Battery life is also great""}",0.81,0.79,qwen2.5:3b,98,18,,True,True,positive,Battery life is also great,True,True,,True
+V1,474,Great software for Motorolas.,positive,"{""label"": ""positive"", ""evidence"": ""Great software""}",0.67,0.66,qwen2.5:3b,98,15,,True,True,positive,Great software,True,True,,True
+V1,70,This device is great in several situations:1.),positive,"{""label"": ""positive"", ""evidence"": ""great""}",0.65,0.62,qwen2.5:3b,102,14,,True,True,positive,great,True,True,,True
+V1,561,"Muddy, low quality sound, and the casing around the wire's insert was poorly super glued and slid off.",negative,"{""label"": ""negative"", ""evidence"": ""poorly super glued and slid off""}",0.96,0.95,qwen2.5:3b,114,21,,True,True,negative,poorly super glued and slid off,True,True,,True
+V1,54,This phone is pretty sturdy and I've never had any large problems with it.,positive,"{""label"": ""positive"", ""evidence"": ""pretty sturdy""}",0.72,0.68,qwen2.5:3b,107,15,,True,True,positive,pretty sturdy,True,True,,True
+V1,759,The sound quality is excellent as well.,positive,"{""label"": ""positive"", ""evidence"": ""sound quality is excellent""}",0.76,0.75,qwen2.5:3b,99,17,,True,True,positive,sound quality is excellent,True,True,,True
+V1,813,Battery charge-life is quite long.,positive,"{""label"": ""positive"", ""evidence"": ""Battery charge-life is quite long.""}",0.91,0.87,qwen2.5:3b,99,20,,True,True,positive,Battery charge-life is quite long.,True,True,,True
+V1,226,These are certainly very comfortable and functionality is decent.,positive,"{""label"": ""positive"", ""evidence"": ""very comfortable and functionality is decent""}",0.86,0.83,qwen2.5:3b,101,19,,True,True,positive,very comfortable and functionality is decent,True,True,,True
+V1,876,This is by far the worst purchase I've made on Amazon.,negative,"{
+  ""label"": ""negative"",
+  ""evidence"": ""worst purchase""
+}",0.9,0.89,qwen2.5:3b,104,20,,True,True,negative,worst purchase,True,True,,True
+V1,200,"useless phone, simply deaf.",negative,"{""label"": ""negative"", ""evidence"": ""useless""}",0.67,0.66,qwen2.5:3b,98,15,,True,True,negative,useless,True,True,,True
+V1,359,The phone gets EXTREMELY HOT!,negative,"{""label"": ""negative"", ""evidence"": ""EXTREMELY HOT""}",0.76,0.75,qwen2.5:3b,99,17,,True,True,negative,EXTREMELY HOT,True,True,,True
+V1,23,The commercials are the most misleading.,negative,"{""label"": ""negative"", ""evidence"": ""misleading""}",0.67,0.66,qwen2.5:3b,98,15,,True,True,negative,misleading,True,True,,True
+V1,858,(It works!),positive,"{""label"": ""positive"", ""evidence"": ""works""}",0.65,0.62,qwen2.5:3b,96,14,,True,True,positive,works,True,True,,True
+V1,690,Works well.,positive,"{""label"": ""positive"", ""evidence"": ""Works well""}",0.67,0.66,qwen2.5:3b,95,15,,True,True,positive,Works well,True,True,,True
+V1,73,Great choice!,positive,"{""label"": ""positive"", ""evidence"": ""Great choice""}",0.69,0.68,qwen2.5:3b,95,15,,True,True,positive,Great choice,True,True,,True
+V1,174,The iGo chargers and tips are really great.,positive,"{""label"": ""positive"", ""evidence"": ""really great""}",0.69,0.67,qwen2.5:3b,102,15,,True,True,positive,really great,True,True,,True
+V1,834,"My father has the V265, and the battery is dying.",negative,"{""label"": ""negative"", ""evidence"": ""battery is dying""}",0.76,0.72,qwen2.5:3b,106,16,,True,True,negative,battery is dying,True,True,,True
+V1,713,Poor quality.,negative,"{""label"": ""negative"", ""evidence"": ""Poor quality""}",0.67,0.66,qwen2.5:3b,95,15,,True,True,negative,Poor quality,True,True,,True
+V1,646,Linksys should have some way to exchange a bad phone for a refurb unit or something!,negative,"{""label"": ""negative"", ""evidence"": ""should have some way to exchange a bad phone for a refurb unit""}",1.18,1.15,qwen2.5:3b,110,26,,True,True,negative,should have some way to exchange a bad phone for a refurb unit,True,True,,True
+V1,707,So anyone near you will hear part of your conversation.,negative,"{""label"": ""negative"", ""evidence"": ""anyone near you will hear part of your conversation""}",1.01,1.0,qwen2.5:3b,102,23,,True,True,negative,anyone near you will hear part of your conversation,True,True,,True
+V1,435,But it does get better reception and clarity than any phone I've had before.,positive,"{""label"": ""positive"", ""evidence"": ""get better reception and clarity""}",0.82,0.81,qwen2.5:3b,107,18,,True,True,positive,get better reception and clarity,True,True,,True
+V1,439,I used to talk on it for 1 - 1 1/2 hours and the battery would be literally drained and dying.,negative,"{""label"": ""negative"", ""evidence"": ""dying""}",0.71,0.7,qwen2.5:3b,118,15,,True,True,negative,dying,True,True,,True
+V1,717,"It quit working after I'd used it for about 18 months, so I just purchased another one because this is the best headset I've ever owned.",positive,"{
+  ""label"": ""positive"",
+  ""evidence"": ""this is the best headset I've ever owned""
+}",1.19,1.17,qwen2.5:3b,123,26,,True,True,positive,this is the best headset I've ever owned,True,True,,True
+V1,797,"Five star Plus, plus.",positive,"{""label"": ""positive"", ""evidence"": ""Five star Plus, plus.""}",0.86,0.83,qwen2.5:3b,98,19,,True,True,positive,"Five star Plus, plus.",True,True,,True
+V1,24,I have yet to run this new battery below two bars and that's three days without charging.,positive,"{""label"": ""negative"", ""evidence"": ""three days without charging""}",0.78,0.77,qwen2.5:3b,110,17,,True,True,negative,three days without charging,True,True,,False
+V1,136,The majority of the Logitech earbud headsets failed.,negative,"{""label"": ""negative"", ""evidence"": ""failed""}",0.67,0.64,qwen2.5:3b,103,14,,True,True,negative,failed,True,True,,True
+V1,257,"The cable looks so thin and flimsy, it is scary.",negative,"{""label"": ""negative"", ""evidence"": ""thick""}",0.7,0.69,qwen2.5:3b,105,15,,True,True,negative,thick,False,False,evidence not found in review,True
+V1,277,I wasted my little money with this earpiece.,negative,"{""label"": ""negative"", ""evidence"": ""wasted my little money""}",0.81,0.8,qwen2.5:3b,101,18,,True,True,negative,wasted my little money,True,True,,True
+V1,552,Thank you for such great service.,positive,"{""label"": ""positive"", ""evidence"": ""great service""}",0.67,0.67,qwen2.5:3b,99,15,,True,True,positive,great service,True,True,,True
+V1,333,The reception is excellent!,positive,"{""label"": ""positive"", ""evidence"": ""excellent""}",0.68,0.67,qwen2.5:3b,96,15,,True,True,positive,excellent,True,True,,True
+V1,935,"You get extra minutes so that you can carry out the call and not get cut off.""",positive,"{""label"": ""positive"", ""evidence"": ""extra minutes""}",0.71,0.69,qwen2.5:3b,110,15,,True,True,positive,extra minutes,True,True,,True
+V1,748,This BlueAnt Supertooth hands-free phone speaker is AWESOME.,positive,"{
+  ""label"": ""positive"",
+  ""evidence"": ""AWESOME""
+}",0.94,0.9,qwen2.5:3b,106,20,,True,True,positive,AWESOME,True,True,,True
+V1,67,"A week later after I activated it, it suddenly died.",negative,"{""label"": ""negative"", ""evidence"": ""suddenly died""}",0.75,0.73,qwen2.5:3b,103,16,,True,True,negative,suddenly died,True,True,,True
+V1,464,Disappointed!.,negative,"{""label"": ""negative"", ""evidence"": ""Disappointed""}",0.68,0.67,qwen2.5:3b,96,15,,True,True,negative,Disappointed,True,True,,True
+V1,71,Mic Doesn't work.,negative,"{""label"": ""negative"", ""evidence"": ""Mic Doesn't work""}",0.77,0.75,qwen2.5:3b,97,17,,True,True,negative,Mic Doesn't work,True,True,,True
+V1,738,"The tracfonewebsite is user friendly and makes it easy toactivate, etc.",positive,"{""label"": ""positive"", ""evidence"": ""user friendly""}",0.72,0.69,qwen2.5:3b,109,15,,True,True,positive,user friendly,True,True,,True
+V1,520,I am not impressed with this and i would not recommend this item to anyone.,negative,"{
+  ""label"": ""negative"",
+  ""evidence"": ""i would not recommend this item to anyone""
+}",1.13,1.11,qwen2.5:3b,107,25,,True,True,negative,i would not recommend this item to anyone,True,True,,True
+V1,442,"I might have gotten a defect, but I would not risk buying it again because of the built quality alone.",negative,"{
+  ""label"": ""negative"",
+  ""evidence"": ""built quality alone""
+}",0.93,0.91,qwen2.5:3b,113,20,,True,True,negative,built quality alone,True,True,,True
+V1,398,Great product and price.,positive,"{""label"": ""positive"", ""evidence"": ""Great product""}",0.69,0.66,qwen2.5:3b,97,15,,True,True,positive,Great product,True,True,,True
+V1,995,Kind of flops around.,negative,"{""label"": ""negative"", ""evidence"": ""flops""}",0.68,0.67,qwen2.5:3b,98,15,,True,True,negative,flops,True,True,,True
+V1,327,"However-the riingtones are not the best, and neither are the games.",negative,"{""label"": ""negative"", ""evidence"": ""riingtones are not the best""}",0.91,0.9,qwen2.5:3b,108,20,,True,True,negative,riingtones are not the best,True,True,,True
+V1,415,After a year the battery went completely dead on my headset.,negative,"{""label"": ""negative"", ""evidence"": ""completely dead""}",0.75,0.73,qwen2.5:3b,103,16,,True,True,negative,completely dead,True,True,,True
+V1,116,The keyboard is a nice compromise between a full QWERTY and the basic cell phone number keypad.,positive,"{""label"": ""positive"", ""evidence"": ""nice compromise""}",0.71,0.7,qwen2.5:3b,112,15,,True,True,positive,nice compromise,True,True,,True
+V1,432,It finds my cell phone right away when I enter the car.,positive,"{""label"": ""positive"", ""evidence"": ""finds my cell phone right away""}",0.91,0.9,qwen2.5:3b,104,20,,True,True,positive,finds my cell phone right away,True,True,,True
+V1,386,The worst piece of crap ever along with the Verizon customer service.,negative,"{
+  ""label"": ""negative"",
+  ""evidence"": ""worst piece of crap ever""
+}",1.05,1.02,qwen2.5:3b,104,23,,True,True,negative,worst piece of crap ever,True,True,,True
+V1,519,The phone is sturdy and waterproof.,positive,"{""label"": ""positive"", ""evidence"": ""sturdy""}",0.68,0.66,qwen2.5:3b,98,15,,True,True,positive,sturdy,True,True,,True
+V1,580,Due to this happening on every call I was forced to stop using this headset.,negative,"{""label"": ""negative"", ""evidence"": ""this happening on every call""}",0.85,0.82,qwen2.5:3b,108,18,,True,True,negative,this happening on every call,True,True,,True
+V1,784,It was horrible!.,negative,"{""label"": ""negative"", ""evidence"": ""horrible""}",0.67,0.66,qwen2.5:3b,96,15,,True,True,negative,horrible,True,True,,True
+V1,167,Doesn't work at all.. I bougth it for my L7c and its not working.,negative,"{
+  ""label"": ""negative"",
+  ""evidence"": ""doesn't work at all""
+}",1.03,1.0,qwen2.5:3b,114,22,,True,True,negative,doesn't work at all,True,False,,True
+V1,187,Design Flaw?.,negative,"{""label"": ""negative"", ""evidence"": ""Flaw""}",0.69,0.67,qwen2.5:3b,97,15,,True,True,negative,Flaw,True,True,,True
+V1,350,"I was sitting in my vehicle, with the cradle on my belt, and the headset lost signal.",negative,"{""label"": ""negative"", ""evidence"": ""cradle on my belt""}",0.85,0.83,qwen2.5:3b,112,18,,True,True,negative,cradle on my belt,True,True,,True
+V1,248,Nice headphones for the price and they work great!,positive,"{""label"": ""positive"", ""evidence"": ""Nice headphones for the price and they work great""}",0.98,0.96,qwen2.5:3b,102,22,,True,True,positive,Nice headphones for the price and they work great,True,True,,True
+V1,949,nice leather.,positive,"{""label"": ""positive"", ""evidence"": ""nice""}",0.65,0.64,qwen2.5:3b,95,14,,True,True,positive,nice,True,True,,True
+V1,65,You have to hold the phone at a particular angle for the other party to hear you clearly.,negative,"{""label"": ""negative"", ""evidence"": ""have to hold the phone""}",0.85,0.82,qwen2.5:3b,110,18,,True,True,negative,have to hold the phone,True,True,,True
+V1,840,I have bought this Nokia cell phone a few weeks ago and it was a nightmare.,negative,"{""label"": ""negative"", ""evidence"": ""a nightmare""}",0.7,0.69,qwen2.5:3b,108,15,,True,True,negative,a nightmare,True,True,,True
+V1,887,"I didn't want the clip going over the top of my ear, causing discomfort.",negative,"{""label"": ""negative"", ""evidence"": ""going over the top of my ear, causing discomfort""}",1.04,1.03,qwen2.5:3b,108,23,,True,True,negative,"going over the top of my ear, causing discomfort",True,True,,True
+V1,335,"very clear, quality sound and you don't have to mess with the sound on your iPod since you have the sound buttons on the headset.",positive,"{""label"": ""positive"", ""evidence"": ""sound buttons on the headset""}",0.87,0.84,qwen2.5:3b,120,18,,True,True,positive,sound buttons on the headset,True,True,,True
+V1,284,I am very impressed with this headset from Plantronics.,positive,"{""label"": ""positive"", ""evidence"": ""very impressed""}",0.71,0.69,qwen2.5:3b,103,15,,True,True,positive,very impressed,True,True,,True
+V1,978,":-)Oh, the charger seems to work fine.",positive,"{""label"": ""positive"", ""evidence"": ""work fine""}",0.69,0.67,qwen2.5:3b,102,15,,True,True,positive,work fine,True,True,,True
+V1,878,Excellent!.,positive,"{""label"": ""positive"", ""evidence"": ""Excellent""}",0.65,0.62,qwen2.5:3b,95,14,,True,True,positive,Excellent,True,True,,True
+V1,256,poor quality and service.,negative,"{""label"": ""negative"", ""evidence"": ""poor quality and service""}",0.8,0.79,qwen2.5:3b,98,18,,True,True,negative,poor quality and service,True,True,,True
+V1,676,Can't upload ringtones from a third party.,negative,"{""label"": ""negative"", ""evidence"": ""Can't upload""}",0.72,0.71,qwen2.5:3b,103,16,,True,True,negative,Can't upload,True,True,,True

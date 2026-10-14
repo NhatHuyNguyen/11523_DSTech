@@ -1,0 +1,51 @@
+{
+  "model": "qwen2.5:3b",
+  "ollama_version": "0.40.4",
+  "endpoint": "/api/chat",
+  "stream": false,
+  "options": {
+    "temperature": 0,
+    "seed": 11523,
+    "num_predict": 100
+  },
+  "format": "JSON schema (label enum + evidence)",
+  "system_message": "You label customer reviews for a data science project. Reply with JSON only.",
+  "random_seed": 11523,
+  "mode": "live",
+  "python": "3.11.17",
+  "platform": "Windows-10-10.0.19044-SP0",
+  "packages": {
+    "pandas": "3.0.6",
+    "requests": "2.34.2",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "pydantic": "2.14.1"
+  },
+  "dataset": "UCI Sentiment Labelled Sentences, amazon_cells_labelled.txt (Kotzias 2015, CC BY 4.0)",
+  "rows_after_dedup": 990,
+  "split_sizes": {
+    "demo": 6,
+    "dev": 20,
+    "test": 100
+  },
+  "few_shot_examples": [
+    {
+      "review": "Linked to my phone without effort.",
+      "label": "positive",
+      "evidence": "without effort"
+    },
+    {
+      "review": "It is practically useless and did not add any kind of boost to my reception after I bought it.",
+      "label": "negative",
+      "evidence": "did not add any kind of boost to my reception"
+    }
+  ],
+  "prompt_sha256": {
+    "V1": "9e0f09bd16194e390a0efe05a70f71db2b0b3d396915b5e71a44a2f79d3cc25b",
+    "V2": "8a96f10498bba51a12cc8f4734a0d43cb8bdce026e391b1ba57e02c0e0127b15",
+    "V3": "d948debfbdca01fd137e2970aaf1c36f19c32b273800a7dff98311c7bcc3680c"
+  },
+  "test_requests": 300,
+  "test_run_minutes": 4.5,
+  "date": "2026-10-14 22:35"
+}

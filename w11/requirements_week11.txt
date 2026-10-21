@@ -1,0 +1,8 @@
+# DSTS 11523 Week 11 (RAG Foundations) - NEW packages only.
+# Install INTO your existing Week 10 environment (activate it first), with:
+#   python -m pip install -r requirements_week11.txt
+# Week 10 packages (pandas, requests, scikit-learn, matplotlib, pydantic, jupyterlab, ipykernel) must already be
+# installed: if they are not, do Week 10 Step 0 first.
+chromadb==1.5.9       # the vector database (Parts 5-8)
+rank-bm25==0.2.2      # keyword search, BM25 (Part 7)
+streamlit==1.66.0     # the Course TA web page (Part 8)

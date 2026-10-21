@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="96" viewBox="0 0 320 96" role="img" aria-label="DSTS 11523 Course TA">
+  <!-- DSTS 11523 Course TA: an original, simple badge (an open book and a chat bubble). Not a university logo. -->
+  <rect x="2" y="2" width="316" height="92" rx="22" fill="#0b4f8a"/>
+  <!-- the open book: two pages and a spine -->
+  <path d="M20 34 Q36 27 51 34 L51 76 Q36 69 20 76 Z" fill="#ffffff"/>
+  <path d="M55 34 Q70 27 86 34 L86 76 Q70 69 55 76 Z" fill="#d6e6f7"/>
+  <rect x="51" y="34" width="4" height="42" fill="#9db4d6"/>
+  <!-- lines of text on the left page -->
+  <rect x="26" y="44" width="19" height="3" rx="1.5" fill="#9db4d6"/>
+  <rect x="26" y="52" width="19" height="3" rx="1.5" fill="#9db4d6"/>
+  <rect x="26" y="60" width="14" height="3" rx="1.5" fill="#9db4d6"/>
+  <!-- the chat bubble with three dots -->
+  <rect x="64" y="10" width="36" height="24" rx="8" fill="#f0b429"/>
+  <path d="M72 33 L68 42 L80 33 Z" fill="#f0b429"/>
+  <circle cx="73" cy="22" r="2.6" fill="#0b4f8a"/>
+  <circle cx="82" cy="22" r="2.6" fill="#0b4f8a"/>
+  <circle cx="91" cy="22" r="2.6" fill="#0b4f8a"/>
+  <!-- the words -->
+  <text x="114" y="46" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="27" font-weight="700" fill="#ffffff">DSTS 11523</text>
+  <text x="114" y="76" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="23" font-weight="600" fill="#f0b429">Course TA</text>
+</svg>

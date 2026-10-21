@@ -1,0 +1,41 @@
+chunks,mode,id,week,rank_of_gold,top5,hit@1,hit@3,hit@5
+800/150,unfiltered,Q01,1,1.0,w01_s006_c1;w02_s017_c0;w02_s006_c0;w02_s011_c0;w04_s011_c0,True,True,True
+800/150,week filter,Q01,1,1.0,w01_s006_c1;w01_s007_c1;w01_s009_c0;w01_s007_c0;w01_s008_c1,True,True,True
+800/150,unfiltered,Q02,1,1.0,w01_s006_c0;w01_s009_c0;w01_s000_c0;w02_s001_c0;w06_s014_c3,True,True,True
+800/150,week filter,Q02,1,1.0,w01_s006_c0;w01_s009_c0;w01_s000_c0;w01_s008_c0;w01_s004_c0,True,True,True
+800/150,unfiltered,Q03,2,,w02_s025_c0;w02_s014_c0;w03_s005_c0;w02_s000_c0;w02_s005_c0,False,False,False
+800/150,week filter,Q03,2,5.0,w02_s025_c0;w02_s014_c0;w02_s000_c0;w02_s005_c0;w02_s015_c0,False,False,True
+800/150,unfiltered,Q04,2,1.0,w02_s015_c0;w02_s019_c0;w03_s005_c0;w04_s014_c1;w03_s007_c0,True,True,True
+800/150,week filter,Q04,2,1.0,w02_s015_c0;w02_s019_c0;w02_s012_c0;w02_s005_c0;w02_s025_c0,True,True,True
+800/150,unfiltered,Q05,3,4.0,w04_s010_c0;w03_s001_c0;w03_s005_c0;w03_s007_c0;w04_s012_c0,False,False,True
+800/150,week filter,Q05,3,3.0,w03_s001_c0;w03_s005_c0;w03_s007_c0;w03_s003_c0;w03_s008_c0,False,True,True
+800/150,unfiltered,Q06,4,1.0,w04_s005_c0;w04_s005_c1;w04_s012_c2;w04_s011_c2;w04_s015_c0,True,True,True
+800/150,week filter,Q06,4,1.0,w04_s005_c0;w04_s005_c1;w04_s012_c2;w04_s011_c2;w04_s015_c0,True,True,True
+800/150,unfiltered,Q07,4,,w04_s017_c0;w04_s016_c0;w04_s018_c0;w04_s018_c1;w06_s020_c2,False,False,False
+800/150,week filter,Q07,4,5.0,w04_s017_c0;w04_s016_c0;w04_s018_c0;w04_s018_c1;w04_s017_c2,False,False,True
+800/150,unfiltered,Q08,5,3.0,w05_s022_c0;w05_s012_c0;w05_s011_c0;w05_s022_c1;w05_s011_c3,False,True,True
+800/150,week filter,Q08,5,3.0,w05_s022_c0;w05_s012_c0;w05_s011_c0;w05_s022_c1;w05_s011_c3,False,True,True
+800/150,unfiltered,Q09,5,,w05_s015_c1;w05_s015_c6;w05_s015_c2;w05_s018_c4;w05_s014_c0,False,False,False
+800/150,week filter,Q09,5,,w05_s015_c1;w05_s015_c6;w05_s015_c2;w05_s018_c4;w05_s014_c0,False,False,False
+800/150,unfiltered,Q10,6,3.0,w06_s006_c1;w06_s029_c0;w06_s020_c3;w06_s006_c0;w06_s029_c1,False,True,True
+800/150,week filter,Q10,6,3.0,w06_s006_c1;w06_s029_c0;w06_s020_c3;w06_s006_c0;w06_s029_c1,False,True,True
+400/80,unfiltered,Q01,1,1.0,w01_s006_c3;w01_s006_c4;w04_s011_c1;w02_s017_c0;w04_s012_c2,True,True,True
+400/80,week filter,Q01,1,1.0,w01_s006_c3;w01_s006_c4;w01_s007_c2;w01_s009_c1;w01_s008_c2,True,True,True
+400/80,unfiltered,Q02,1,1.0,w01_s006_c0;w01_s009_c0;w01_s000_c1;w01_s009_c1;w01_s000_c0,True,True,True
+400/80,week filter,Q02,1,1.0,w01_s006_c0;w01_s009_c0;w01_s000_c1;w01_s009_c1;w01_s000_c0,True,True,True
+400/80,unfiltered,Q03,2,,w02_s025_c0;w02_s014_c0;w03_s005_c0;w02_s015_c0;w02_s000_c0,False,False,False
+400/80,week filter,Q03,2,,w02_s025_c0;w02_s014_c0;w02_s015_c0;w02_s000_c0;w02_s005_c0,False,False,False
+400/80,unfiltered,Q04,2,1.0,w02_s015_c0;w02_s019_c0;w03_s005_c0;w04_s014_c2;w04_s014_c3,True,True,True
+400/80,week filter,Q04,2,1.0,w02_s015_c0;w02_s019_c0;w02_s012_c0;w02_s005_c0;w02_s015_c2,True,True,True
+400/80,unfiltered,Q05,3,,w04_s010_c0;w03_s007_c0;w04_s012_c0;w03_s001_c0;w03_s005_c0,False,False,False
+400/80,week filter,Q05,3,5.0,w03_s007_c0;w03_s001_c0;w03_s005_c0;w03_s003_c0;w03_s007_c1,False,False,True
+400/80,unfiltered,Q06,4,1.0,w04_s005_c0;w04_s005_c3;w03_s004_c1;w06_s013_c12;w04_s005_c2,True,True,True
+400/80,week filter,Q06,4,1.0,w04_s005_c0;w04_s005_c3;w04_s005_c2;w04_s011_c4;w04_s020_c0,True,True,True
+400/80,unfiltered,Q07,4,5.0,w04_s017_c0;w04_s017_c4;w04_s018_c0;w04_s016_c0;w04_s017_c5,False,False,True
+400/80,week filter,Q07,4,5.0,w04_s017_c0;w04_s017_c4;w04_s018_c0;w04_s016_c0;w04_s017_c5,False,False,True
+400/80,unfiltered,Q08,5,,w05_s011_c0;w05_s012_c0;w05_s020_c0;w05_s022_c2;w05_s008_c5,False,False,False
+400/80,week filter,Q08,5,,w05_s011_c0;w05_s012_c0;w05_s020_c0;w05_s022_c2;w05_s008_c5,False,False,False
+400/80,unfiltered,Q09,5,,w05_s024_c3;w05_s024_c1;w05_s015_c16;w05_s015_c2;w05_s015_c1,False,False,False
+400/80,week filter,Q09,5,,w05_s024_c3;w05_s024_c1;w05_s015_c16;w05_s015_c2;w05_s015_c1,False,False,False
+400/80,unfiltered,Q10,6,5.0,w06_s006_c2;w06_s020_c5;w06_s029_c2;w06_s020_c15;w06_s020_c7,False,False,True
+400/80,week filter,Q10,6,5.0,w06_s006_c2;w06_s020_c5;w06_s029_c2;w06_s020_c15;w06_s020_c7,False,False,True

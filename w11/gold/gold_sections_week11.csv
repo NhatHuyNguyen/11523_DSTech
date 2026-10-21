@@ -1,0 +1,16 @@
+section_id,week,source_file,section,task_type,tools,tools_named_in_text
+w01_s006,1,week01_python_numpy_pandas_basics.md,2. Pandas Introduction,data_preparation|exploration_visualisation,pandas,pandas
+w01_s007,1,week01_python_numpy_pandas_basics.md,3. Exercise: Sensor Data Analysis with NumPy,exploration_visualisation,numpy;matplotlib,numpy;matplotlib
+w02_s015,2,week02_eda_to_pca.md,Data Cleaning,data_preparation,,
+w02_s020,2,week02_eda_to_pca.md,PCA Implementation,modelling|exploration_visualisation,scikit-learn,scikit-learn
+w02_s011,2,week02_eda_to_pca.md,A. Distribution Plots,exploration_visualisation,matplotlib;seaborn,matplotlib;seaborn
+w03_s004,3,week03_retail_and_weather_modelling.md,Required Tasks,modelling|evaluation,xgboost;shap,xgboost;shap
+w03_s007,3,week03_retail_and_weather_modelling.md,Step-by-Step Tasks,modelling,shap,shap
+w04_s005,4,week04_model_evaluation_optimisation.md,Exercise 2 — Fall into (and out of) the accuracy trap,evaluation,scikit-learn,scikit-learn
+w04_s009,4,week04_model_evaluation_optimisation.md,"Exercise 5 — Spot the leak 🔍 (predict, then measure)",evaluation,scikit-learn,scikit-learn
+w04_s017,4,week04_model_evaluation_optimisation.md,Exercise 10 — Log and compare runs,evaluation,mlflow;scikit-learn,scikit-learn;mlflow
+w05_s011,5,week05_version_control_collaboration.md,Exercise 4 — Keep data and secrets out of the repo,version_control,git,git
+w05_s015,5,week05_version_control_collaboration.md,Exercise 7 — Team conflict: two members edit the same function,version_control,git,git
+w05_s022,5,week05_version_control_collaboration.md,Exercise 11 — Add a GitHub Actions workflow,version_control,git;github,git;github;pre-commit
+w06_s016,6,week06_containerisation_deployment.md,Exercise 5 — Write the Dockerfile,deployment,docker,scikit-learn;docker
+w06_s020,6,week06_containerisation_deployment.md,Exercise 8 — Run the container and call it,deployment,docker,scikit-learn;docker;uvicorn

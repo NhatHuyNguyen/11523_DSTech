@@ -1,0 +1,368 @@
+{
+ "documents": 6,
+ "sections": 125,
+ "chunks": {
+  "800/150": 313,
+  "400/80": 578
+ },
+ "chunks_800_per_week": [
+  17,
+  27,
+  11,
+  43,
+  100,
+  115
+ ],
+ "chunks_400_per_week": [
+  32,
+  37,
+  14,
+  79,
+  190,
+  226
+ ],
+ "prompt_comparison": [
+  {
+   "version": "V1",
+   "valid": 0.2,
+   "evidence_exact": 0.533,
+   "task_acc": 0.2,
+   "tools_exact": 0.2,
+   "tools_jaccard": 0.2,
+   "mean_s": 22.435
+  },
+  {
+   "version": "V2",
+   "valid": 0.333,
+   "evidence_exact": 0.733,
+   "task_acc": 0.133,
+   "tools_exact": 0.2,
+   "tools_jaccard": 0.233,
+   "mean_s": 21.472
+  },
+  {
+   "version": "V3",
+   "valid": 0.4,
+   "evidence_exact": 0.467,
+   "task_acc": 0.267,
+   "tools_exact": 0.333,
+   "tools_jaccard": 0.333,
+   "mean_s": 21.431
+  }
+ ],
+ "frozen_prompt": "V3",
+ "extraction_status": {
+  "invalid": 67,
+  "ok": 58
+ },
+ "json_valid": 1.0,
+ "schema_valid": 1.0,
+ "valid": 0.464,
+ "evidence_exact": 0.616,
+ "evidence_normalised": 0.688,
+ "hit_at_k": {
+  "800/150 | unfiltered": {
+   "hit@1": 0.4,
+   "hit@3": 0.6,
+   "hit@5": 0.7
+  },
+  "800/150 | week filter": {
+   "hit@1": 0.4,
+   "hit@3": 0.7,
+   "hit@5": 0.9
+  },
+  "400/80 | unfiltered": {
+   "hit@1": 0.4,
+   "hit@3": 0.4,
+   "hit@5": 0.6
+  },
+  "400/80 | week filter": {
+   "hit@1": 0.4,
+   "hit@3": 0.4,
+   "hit@5": 0.7
+  }
+ },
+ "gold_rank": [
+  {
+   "chunks": "800/150",
+   "mode": "unfiltered",
+   "id": "Q01",
+   "rank_of_gold": "1.0",
+   "top5": "w01_s006_c1;w02_s017_c0;w02_s006_c0;w02_s011_c0;w04_s011_c0"
+  },
+  {
+   "chunks": "800/150",
+   "mode": "week filter",
+   "id": "Q01",
+   "rank_of_gold": "1.0",
+   "top5": "w01_s006_c1;w01_s007_c1;w01_s009_c0;w01_s007_c0;w01_s008_c1"
+  },
+  {
+   "chunks": "800/150",
+   "mode": "unfiltered",
+   "id": "Q02",
+   "rank_of_gold": "1.0",
+   "top5": "w01_s006_c0;w01_s009_c0;w01_s000_c0;w02_s001_c0;w06_s014_c3"
+  },
+  {
+   "chunks": "800/150",
+   "mode": "week filter",
+   "id": "Q02",
+   "rank_of_gold": "1.0",
+   "top5": "w01_s006_c0;w01_s009_c0;w01_s000_c0;w01_s008_c0;w01_s004_c0"
+  },
+  {
+   "chunks": "800/150",
+   "mode": "unfiltered",
+   "id": "Q03",
+   "rank_of_gold": NaN,
+   "top5": "w02_s025_c0;w02_s014_c0;w03_s005_c0;w02_s000_c0;w02_s005_c0"
+  },
+  {
+   "chunks": "800/150",
+   "mode": "week filter",
+   "id": "Q03",
+   "rank_of_gold": "5.0",
+   "top5": "w02_s025_c0;w02_s014_c0;w02_s000_c0;w02_s005_c0;w02_s015_c0"
+  },
+  {
+   "chunks": "800/150",
+   "mode": "unfiltered",
+   "id": "Q04",
+   "rank_of_gold": "1.0",
+   "top5": "w02_s015_c0;w02_s019_c0;w03_s005_c0;w04_s014_c1;w03_s007_c0"
+  },
+  {
+   "chunks": "800/150",
+   "mode": "week filter",
+   "id": "Q04",
+   "rank_of_gold": "1.0",
+   "top5": "w02_s015_c0;w02_s019_c0;w02_s012_c0;w02_s005_c0;w02_s025_c0"
+  },
+  {
+   "chunks": "800/150",
+   "mode": "unfiltered",
+   "id": "Q05",
+   "rank_of_gold": "4.0",
+   "top5": "w04_s010_c0;w03_s001_c0;w03_s005_c0;w03_s007_c0;w04_s012_c0"
+  },
+  {
+   "chunks": "800/150",
+   "mode": "week filter",
+   "id": "Q05",
+   "rank_of_gold": "3.0",
+   "top5": "w03_s001_c0;w03_s005_c0;w03_s007_c0;w03_s003_c0;w03_s008_c0"
+  },
+  {
+   "chunks": "800/150",
+   "mode": "unfiltered",
+   "id": "Q06",
+   "rank_of_gold": "1.0",
+   "top5": "w04_s005_c0;w04_s005_c1;w04_s012_c2;w04_s011_c2;w04_s015_c0"
+  },
+  {
+   "chunks": "800/150",
+   "mode": "week filter",
+   "id": "Q06",
+   "rank_of_gold": "1.0",
+   "top5": "w04_s005_c0;w04_s005_c1;w04_s012_c2;w04_s011_c2;w04_s015_c0"
+  },
+  {
+   "chunks": "800/150",
+   "mode": "unfiltered",
+   "id": "Q07",
+   "rank_of_gold": NaN,
+   "top5": "w04_s017_c0;w04_s016_c0;w04_s018_c0;w04_s018_c1;w06_s020_c2"
+  },
+  {
+   "chunks": "800/150",
+   "mode": "week filter",
+   "id": "Q07",
+   "rank_of_gold": "5.0",
+   "top5": "w04_s017_c0;w04_s016_c0;w04_s018_c0;w04_s018_c1;w04_s017_c2"
+  },
+  {
+   "chunks": "800/150",
+   "mode": "unfiltered",
+   "id": "Q08",
+   "rank_of_gold": "3.0",
+   "top5": "w05_s022_c0;w05_s012_c0;w05_s011_c0;w05_s022_c1;w05_s011_c3"
+  },
+  {
+   "chunks": "800/150",
+   "mode": "week filter",
+   "id": "Q08",
+   "rank_of_gold": "3.0",
+   "top5": "w05_s022_c0;w05_s012_c0;w05_s011_c0;w05_s022_c1;w05_s011_c3"
+  },
+  {
+   "chunks": "800/150",
+   "mode": "unfiltered",
+   "id": "Q09",
+   "rank_of_gold": NaN,
+   "top5": "w05_s015_c1;w05_s015_c6;w05_s015_c2;w05_s018_c4;w05_s014_c0"
+  },
+  {
+   "chunks": "800/150",
+   "mode": "week filter",
+   "id": "Q09",
+   "rank_of_gold": NaN,
+   "top5": "w05_s015_c1;w05_s015_c6;w05_s015_c2;w05_s018_c4;w05_s014_c0"
+  },
+  {
+   "chunks": "800/150",
+   "mode": "unfiltered",
+   "id": "Q10",
+   "rank_of_gold": "3.0",
+   "top5": "w06_s006_c1;w06_s029_c0;w06_s020_c3;w06_s006_c0;w06_s029_c1"
+  },
+  {
+   "chunks": "800/150",
+   "mode": "week filter",
+   "id": "Q10",
+   "rank_of_gold": "3.0",
+   "top5": "w06_s006_c1;w06_s029_c0;w06_s020_c3;w06_s006_c0;w06_s029_c1"
+  },
+  {
+   "chunks": "400/80",
+   "mode": "unfiltered",
+   "id": "Q01",
+   "rank_of_gold": "1.0",
+   "top5": "w01_s006_c3;w01_s006_c4;w04_s011_c1;w02_s017_c0;w04_s012_c2"
+  },
+  {
+   "chunks": "400/80",
+   "mode": "week filter",
+   "id": "Q01",
+   "rank_of_gold": "1.0",
+   "top5": "w01_s006_c3;w01_s006_c4;w01_s007_c2;w01_s009_c1;w01_s008_c2"
+  },
+  {
+   "chunks": "400/80",
+   "mode": "unfiltered",
+   "id": "Q02",
+   "rank_of_gold": "1.0",
+   "top5": "w01_s006_c0;w01_s009_c0;w01_s000_c1;w01_s009_c1;w01_s000_c0"
+  },
+  {
+   "chunks": "400/80",
+   "mode": "week filter",
+   "id": "Q02",
+   "rank_of_gold": "1.0",
+   "top5": "w01_s006_c0;w01_s009_c0;w01_s000_c1;w01_s009_c1;w01_s000_c0"
+  },
+  {
+   "chunks": "400/80",
+   "mode": "unfiltered",
+   "id": "Q03",
+   "rank_of_gold": NaN,
+   "top5": "w02_s025_c0;w02_s014_c0;w03_s005_c0;w02_s015_c0;w02_s000_c0"
+  },
+  {
+   "chunks": "400/80",
+   "mode": "week filter",
+   "id": "Q03",
+   "rank_of_gold": NaN,
+   "top5": "w02_s025_c0;w02_s014_c0;w02_s015_c0;w02_s000_c0;w02_s005_c0"
+  },
+  {
+   "chunks": "400/80",
+   "mode": "unfiltered",
+   "id": "Q04",
+   "rank_of_gold": "1.0",
+   "top5": "w02_s015_c0;w02_s019_c0;w03_s005_c0;w04_s014_c2;w04_s014_c3"
+  },
+  {
+   "chunks": "400/80",
+   "mode": "week filter",
+   "id": "Q04",
+   "rank_of_gold": "1.0",
+   "top5": "w02_s015_c0;w02_s019_c0;w02_s012_c0;w02_s005_c0;w02_s015_c2"
+  },
+  {
+   "chunks": "400/80",
+   "mode": "unfiltered",
+   "id": "Q05",
+   "rank_of_gold": NaN,
+   "top5": "w04_s010_c0;w03_s007_c0;w04_s012_c0;w03_s001_c0;w03_s005_c0"
+  },
+  {
+   "chunks": "400/80",
+   "mode": "week filter",
+   "id": "Q05",
+   "rank_of_gold": "5.0",
+   "top5": "w03_s007_c0;w03_s001_c0;w03_s005_c0;w03_s003_c0;w03_s007_c1"
+  },
+  {
+   "chunks": "400/80",
+   "mode": "unfiltered",
+   "id": "Q06",
+   "rank_of_gold": "1.0",
+   "top5": "w04_s005_c0;w04_s005_c3;w03_s004_c1;w06_s013_c12;w04_s005_c2"
+  },
+  {
+   "chunks": "400/80",
+   "mode": "week filter",
+   "id": "Q06",
+   "rank_of_gold": "1.0",
+   "top5": "w04_s005_c0;w04_s005_c3;w04_s005_c2;w04_s011_c4;w04_s020_c0"
+  },
+  {
+   "chunks": "400/80",
+   "mode": "unfiltered",
+   "id": "Q07",
+   "rank_of_gold": "5.0",
+   "top5": "w04_s017_c0;w04_s017_c4;w04_s018_c0;w04_s016_c0;w04_s017_c5"
+  },
+  {
+   "chunks": "400/80",
+   "mode": "week filter",
+   "id": "Q07",
+   "rank_of_gold": "5.0",
+   "top5": "w04_s017_c0;w04_s017_c4;w04_s018_c0;w04_s016_c0;w04_s017_c5"
+  },
+  {
+   "chunks": "400/80",
+   "mode": "unfiltered",
+   "id": "Q08",
+   "rank_of_gold": NaN,
+   "top5": "w05_s011_c0;w05_s012_c0;w05_s020_c0;w05_s022_c2;w05_s008_c5"
+  },
+  {
+   "chunks": "400/80",
+   "mode": "week filter",
+   "id": "Q08",
+   "rank_of_gold": NaN,
+   "top5": "w05_s011_c0;w05_s012_c0;w05_s020_c0;w05_s022_c2;w05_s008_c5"
+  },
+  {
+   "chunks": "400/80",
+   "mode": "unfiltered",
+   "id": "Q09",
+   "rank_of_gold": NaN,
+   "top5": "w05_s024_c3;w05_s024_c1;w05_s015_c16;w05_s015_c2;w05_s015_c1"
+  },
+  {
+   "chunks": "400/80",
+   "mode": "week filter",
+   "id": "Q09",
+   "rank_of_gold": NaN,
+   "top5": "w05_s024_c3;w05_s024_c1;w05_s015_c16;w05_s015_c2;w05_s015_c1"
+  },
+  {
+   "chunks": "400/80",
+   "mode": "unfiltered",
+   "id": "Q10",
+   "rank_of_gold": "5.0",
+   "top5": "w06_s006_c2;w06_s020_c5;w06_s029_c2;w06_s020_c15;w06_s020_c7"
+  },
+  {
+   "chunks": "400/80",
+   "mode": "week filter",
+   "id": "Q10",
+   "rank_of_gold": "5.0",
+   "top5": "w06_s006_c2;w06_s020_c5;w06_s029_c2;w06_s020_c15;w06_s020_c7"
+  }
+ ],
+ "chroma_equals_exact_top5": 40
+}

@@ -1,0 +1,255 @@
+version,section_id,week,source_file,section,raw,seconds,error,prompt_tokens,output_tokens,status,json_valid,schema_valid,task_type,tools,key_concepts,evidence,evidence_exact,evidence_normalised,problem,task_ok,tools_exact,tools_jaccard
+V1,w01_s006,1,week01_python_numpy_pandas_basics.md,2. Pandas Introduction,"{
+  ""task_type"": ""data_preparation"",
+  ""tools"": [""pandas""],
+  ""key_concepts"": [""Iris dataset"", ""sepal_length"", ""species""],
+  ""evidence"": ""df.groupby('species')['sepal_length'].mean()""
+}",27.7,,634,57,ok,True,True,data_preparation,pandas,Iris dataset;sepal_length;species,df.groupby('species')['sepal_length'].mean(),True,True,,True,True,1.0
+V1,w01_s007,1,week01_python_numpy_pandas_basics.md,3. Exercise: Sensor Data Analysis with NumPy,"{
+  ""task_type"": ""exploration_visualisation"",
+  ""tools"": [""numpy"", ""matplotlib""],
+  ""key_concepts"": [""NumPy array"", ""temperature conversion"", ""hourly trends""],
+  ""evidence"": ""Use `matplotlib` to plot hourly temperature trends for all days.""
+}",24.66,,692,63,ok,True,True,exploration_visualisation,numpy;matplotlib,NumPy array;temperature conversion;hourly trends,Use `matplotlib` to plot hourly temperature trends for all days.,True,True,,True,True,1.0
+V1,w02_s015,2,week02_eda_to_pca.md,Data Cleaning,"{
+  ""task_type"": ""data_preparation"",
+  ""tools"": [""pandas""],
+  ""key_concepts"": [""data cleaning"", ""missing values"", ""outliers""],
+  ""evidence"": ""Drop rows with missing critical fields""
+}",16.29,,402,52,invalid,True,True,data_preparation,pandas,data cleaning;missing values;outliers,Drop rows with missing critical fields,True,True,tool not named in the text: pandas,False,False,0.0
+V1,w02_s020,2,week02_eda_to_pca.md,PCA Implementation,"{
+  ""task_type"": ""exploration_visualisation"",
+  ""tools"": [""pandas"", ""numpy"", ""matplotlib"", ""seaborn""],
+  ""key_concepts"": [""PCA"", ""StandardScaler"", ""fit_transform""],
+  ""evidence"": ""pca.fit_transform(X_scaled)""
+}",14.9,,289,63,invalid,True,True,exploration_visualisation,pandas;numpy;matplotlib;seaborn,PCA;StandardScaler;fit_transform,pca.fit_transform(X_scaled),True,True,tool not named in the text: pandas;numpy;matplotlib;seaborn,False,False,0.0
+V1,w02_s011,2,week02_eda_to_pca.md,A. Distribution Plots,"{
+  ""task_type"": ""exploration_visualisation"",
+  ""tools"": [""seaborn"", ""matplotlib"", ""numpy"", ""pandas""],
+  ""key_concepts"": [""distribution"", ""histogram"", ""kde""],
+  ""evidence"": ""sns.histplot(df['Purchase'], bins=50, kde=True)""
+}",13.63,,245,72,invalid,True,True,exploration_visualisation,seaborn;matplotlib;numpy;pandas,distribution;histogram;kde,"sns.histplot(df['Purchase'], bins=50, kde=True)",True,True,tool not named in the text: numpy;pandas,False,False,0.0
+V1,w03_s004,3,week03_retail_and_weather_modelling.md,Required Tasks,"{
+  ""task_type"": ""data_preparation"",
+  ""tools"": [""pandas"", ""numpy"", ""matplotlib""],
+  ""key_concepts"": [""missing values"", ""date features"", ""imputation""],
+  ""evidence"": ""Handle missing values (remove or impute)""
+}",14.49,,353,60,invalid,True,True,data_preparation,pandas;numpy;matplotlib,missing values;date features;imputation,Handle missing values (remove or impute),True,True,tool not named in the text: pandas;numpy;matplotlib,False,False,0.0
+V1,w03_s007,3,week03_retail_and_weather_modelling.md,Step-by-Step Tasks,"{
+  ""task_type"": ""exploration_visualisation"",
+  ""tools"": [""pandas"", ""matplotlib"", ""seaborn"", ""scikit-learn""],
+  ""key_concepts"": [""categorical variables"", ""outlier treatment"", ""feature importance""],
+  ""evidence"": ""Run the notebook and focus on key transitions such as how categorical variables are encoded, outlier treatment using IQR, feature scaling importance, hyperparameter tuning using GridSearchCV, and feature importance analysis using SHAP.""
+}",22.55,,358,104,invalid,True,True,exploration_visualisation,pandas;matplotlib;seaborn;scikit-learn,categorical variables;outlier treatment;feature importance,"Run the notebook and focus on key transitions such as how categorical variables are encoded, outlier treatment using IQR, feature scaling importance, hyperparameter tuning using GridSearchCV, and feature importance analysis using SHAP.",False,False,evidence is not an exact quote,False,False,0.0
+V1,w04_s005,4,week04_model_evaluation_optimisation.md,Exercise 2 — Fall into (and out of) the accuracy trap,"{
+  ""task_type"": ""exploration_visualisation"",
+  ""tools"": [""pandas"", ""numpy"", ""matplotlib"", ""seaborn""],
+  ""key_concepts"": [""accuracy"", ""recall"", ""imbalanced data""],
+  ""evidence"": ""dummy  accuracy        : 0.6316""
+}",22.61,,564,69,invalid,True,True,exploration_visualisation,pandas;numpy;matplotlib;seaborn,accuracy;recall;imbalanced data,dummy  accuracy        : 0.6316,False,True,evidence is not an exact quote,False,False,0.0
+V1,w04_s009,4,week04_model_evaluation_optimisation.md,"Exercise 5 — Spot the leak 🔍 (predict, then measure)","{
+  ""task_type"": ""exploration_visualisation"",
+  ""tools"": [""numpy"", ""pandas"", ""matplotlib"", ""seaborn""],
+  ""key_concepts"": [""feature selection"", ""cross-validation"", ""pipeline""],
+  ""evidence"": ""The code shows a comparison between a 'leaky' and 'honest' approach, where the 'leaky' approach uses the entire dataset to select features, while the 'honest' approach uses a pipeline that re-runs the feature selection on each fold.""
+}",31.92,,637,110,invalid,True,True,exploration_visualisation,numpy;pandas;matplotlib;seaborn,feature selection;cross-validation;pipeline,"The code shows a comparison between a 'leaky' and 'honest' approach, where the 'leaky' approach uses the entire dataset to select features, while the 'honest' approach uses a pipeline that re-runs the feature selection on each fold.",False,False,evidence is not an exact quote,False,False,0.0
+V1,w04_s017,4,week04_model_evaluation_optimisation.md,Exercise 10 — Log and compare runs,"{
+  ""task_type"": ""modelling"",
+  ""tools"": [""mlflow"", ""pandas"", ""scikit-learn""],
+  ""key_concepts"": [""random-forest"", ""log_params"", ""log_metric""],
+  ""evidence"": ""mlflow.log_params(cfg)\nmlflow.log_metric(\""f1\"", f1)""
+}",24.6,,599,73,invalid,True,True,modelling,mlflow;pandas;scikit-learn,random-forest;log_params;log_metric,"mlflow.log_params(cfg)
+mlflow.log_metric(""f1"", f1)",False,True,evidence is not an exact quote,False,False,0.0
+V1,w05_s011,5,week05_version_control_collaboration.md,Exercise 4 — Keep data and secrets out of the repo,"{
+  ""task_type"": ""version_control"",
+  ""tools"": [""git"", ""shap""],
+  ""key_concepts"": [""gitignore"", ""untracked files"", ""secrets""],
+  ""evidence"": ""we create fake data and a fake secret only to practice ignoring them. Do not commit real secrets.""
+}",24.09,,623,68,invalid,True,True,version_control,git;shap,gitignore;untracked files;secrets,we create fake data and a fake secret only to practice ignoring them. Do not commit real secrets.,True,True,tool not named in the text: shap,False,False,0.0
+V1,w05_s015,5,week05_version_control_collaboration.md,Exercise 7 — Team conflict: two members edit the same function,"{
+  ""task_type"": ""modelling"",
+  ""tools"": [""git"", ""git"", ""git"", ""git""],
+  ""key_concepts"": [""branching"", ""merging"", ""conflict resolution""],
+  ""evidence"": ""git merge feature/ada-threshold (should succeed)""
+}",22.6,,602,64,invalid,True,True,modelling,git;git;git;git,branching;merging;conflict resolution,git merge feature/ada-threshold (should succeed),False,False,evidence is not an exact quote,False,False,0.0
+V1,w05_s022,5,week05_version_control_collaboration.md,Exercise 11 — Add a GitHub Actions workflow,"{
+  ""task_type"": ""version_control"",
+  ""tools"": [""git"", ""github"", ""github"", ""git""],
+  ""key_concepts"": [""feature branch"", ""pull request"", ""CI file""],
+  ""evidence"": ""Create the folder `.github/workflows`""
+}",22.34,,569,61,ok,True,True,version_control,git;github;github;git,feature branch;pull request;CI file,Create the folder `.github/workflows`,True,True,,True,True,1.0
+V1,w06_s016,6,week06_containerisation_deployment.md,Exercise 5 — Write the Dockerfile,"{
+  ""task_type"": ""setup"",
+  ""tools"": [""docker"", ""git""],
+  ""key_concepts"": [""Dockerfile"", ""layer"", ""cached""],
+  ""evidence"": ""A plain text file named exactly `Dockerfile` (capital D, no .txt extension).""
+}",23.88,,562,65,invalid,True,True,setup,docker;git,Dockerfile;layer;cached,"A plain text file named exactly `Dockerfile` (capital D, no .txt extension).",False,False,evidence is not an exact quote,False,False,0.0
+V1,w06_s020,6,week06_containerisation_deployment.md,Exercise 8 — Run the container and call it,"{
+  ""task_type"": ""deployment"",
+  ""tools"": [""docker"", ""docker-compose"", ""uvicorn""],
+  ""key_concepts"": [""container"", ""Docker"", ""uvicorn""],
+  ""evidence"": ""In this exercise, the same API runs inside Docker. Your browser still opens http://localhost:8000/docs, but the work happens in the container — another computer would not need to install Python or scikit-learn to run it, only Docker.""
+}",30.26,,572,102,invalid,True,True,deployment,docker;docker-compose;uvicorn,container;Docker;uvicorn,"In this exercise, the same API runs inside Docker. Your browser still opens http://localhost:8000/docs, but the work happens in the container — another computer would not need to install Python or scikit-learn to run it, only Docker.",False,False,evidence is not an exact quote,False,False,0.0
+V2,w01_s006,1,week01_python_numpy_pandas_basics.md,2. Pandas Introduction,"{
+    ""task_type"": ""exploration_visualisation"",
+    ""tools"": [""pandas""],
+    ""key_concepts"": [""Iris dataset"", ""sepal_length"", ""species""],
+    ""evidence"": ""species\nsetosa        5.006\nversicolor    5.936\nvirginica     6.588\nName: sepal_length, dtype: float64""
+}",33.09,,770,92,ok,True,True,exploration_visualisation,pandas,Iris dataset;sepal_length;species,"species
+setosa        5.006
+versicolor    5.936
+virginica     6.588
+Name: sepal_length, dtype: float64",True,True,,True,True,1.0
+V2,w01_s007,1,week01_python_numpy_pandas_basics.md,3. Exercise: Sensor Data Analysis with NumPy,"{
+  ""task_type"": ""exploration_visualisation"",
+  ""tools"": [""numpy"", ""matplotlib""],
+  ""key_concepts"": [""sensor data"", ""temperature analysis"", ""hourly trends""],
+  ""evidence"": ""hourly temperatures over 5 days in °C""
+}",25.2,,828,60,ok,True,True,exploration_visualisation,numpy;matplotlib,sensor data;temperature analysis;hourly trends,hourly temperatures over 5 days in °C,True,True,,True,True,1.0
+V2,w02_s015,2,week02_eda_to_pca.md,Data Cleaning,"{
+  ""task_type"": ""data_preparation"",
+  ""tools"": [""pandas""],
+  ""key_concepts"": [""data cleaning"", ""missing values"", ""outliers""],
+  ""evidence"": ""clean_df['Product_Category_2'].fillna(-1)""
+}",16.02,,538,57,invalid,True,True,data_preparation,pandas,data cleaning;missing values;outliers,clean_df['Product_Category_2'].fillna(-1),True,True,tool not named in the text: pandas,False,False,0.0
+V2,w02_s020,2,week02_eda_to_pca.md,PCA Implementation,"{
+  ""task_type"": ""exploration_visualisation"",
+  ""tools"": [""pandas"", ""numpy"", ""matplotlib"", ""seaborn""],
+  ""key_concepts"": [""PCA"", ""StandardScaler"", ""Principal Components""],
+  ""evidence"": ""pca = PCA(n_components=2)""
+}",13.91,,425,65,invalid,True,True,exploration_visualisation,pandas;numpy;matplotlib;seaborn,PCA;StandardScaler;Principal Components,pca = PCA(n_components=2),True,True,tool not named in the text: pandas;numpy;matplotlib;seaborn,False,False,0.0
+V2,w02_s011,2,week02_eda_to_pca.md,A. Distribution Plots,"{
+  ""task_type"": ""exploration_visualisation"",
+  ""tools"": [""seaborn"", ""matplotlib"", ""numpy"", ""pandas""],
+  ""key_concepts"": [""distribution"", ""histogram"", ""kde""],
+  ""evidence"": ""sns.histplot(df['Purchase'], bins=50, kde=True)""
+}",14.17,,381,72,invalid,True,True,exploration_visualisation,seaborn;matplotlib;numpy;pandas,distribution;histogram;kde,"sns.histplot(df['Purchase'], bins=50, kde=True)",True,True,tool not named in the text: numpy;pandas,False,False,0.0
+V2,w03_s004,3,week03_retail_and_weather_modelling.md,Required Tasks,"{
+  ""task_type"": ""data_preparation"",
+  ""tools"": [""pandas"", ""numpy""],
+  ""key_concepts"": [""missing values"", ""date features"", ""categorical variables""],
+  ""evidence"": ""Load data from `weatherAUS.csv`""
+}",14.94,,489,59,invalid,True,True,data_preparation,pandas;numpy,missing values;date features;categorical variables,Load data from `weatherAUS.csv`,False,True,evidence is not an exact quote,False,False,0.0
+V2,w03_s007,3,week03_retail_and_weather_modelling.md,Step-by-Step Tasks,"{
+  ""task_type"": ""exploration_visualisation"",
+  ""tools"": [""jupyter""],
+  ""key_concepts"": [""categorical variables"", ""outlier treatment"", ""feature scaling""],
+  ""evidence"": ""Run the notebook and prepare 2 questions about any unclear steps""
+}",15.38,,494,61,invalid,True,True,exploration_visualisation,jupyter,categorical variables;outlier treatment;feature scaling,Run the notebook and prepare 2 questions about any unclear steps,True,True,tool not named in the text: jupyter,False,False,0.0
+V2,w04_s005,4,week04_model_evaluation_optimisation.md,Exercise 2 — Fall into (and out of) the accuracy trap,"{
+  ""task_type"": ""exploration_visualisation"",
+  ""tools"": [
+    ""numpy"",
+    ""pandas"",
+    ""matplotlib"",
+    ""seaborn""
+  ],
+  ""key_concepts"": [
+    ""accuracy"",
+    ""recall"",
+    ""imbalanced data""
+  ],
+  ""evidence"": ""dummy  recall CANCER  : 0.0""
+}",25.06,,700,82,invalid,True,True,exploration_visualisation,numpy;pandas;matplotlib;seaborn,accuracy;recall;imbalanced data,dummy  recall CANCER  : 0.0,True,True,tool not named in the text: numpy;pandas;matplotlib;seaborn,False,False,0.0
+V2,w04_s009,4,week04_model_evaluation_optimisation.md,"Exercise 5 — Spot the leak 🔍 (predict, then measure)","{
+  ""task_type"": ""exploration_visualisation"",
+  ""tools"": [
+    ""numpy"",
+    ""pandas"",
+    ""matplotlib"",
+    ""scikit-learn""
+  ],
+  ""key_concepts"": [
+    ""feature selection"",
+    ""cross-validation"",
+    ""pipeline""
+  ],
+  ""evidence"": ""(b) WRONG — selection saw every row's label before \""testing\"" on it""
+}",28.22,,773,87,invalid,True,True,exploration_visualisation,numpy;pandas;matplotlib;scikit-learn,feature selection;cross-validation;pipeline,"(b) WRONG — selection saw every row's label before ""testing"" on it",True,True,tool not named in the text: numpy;pandas;matplotlib,False,False,0.0
+V2,w04_s017,4,week04_model_evaluation_optimisation.md,Exercise 10 — Log and compare runs,"{
+  ""task_type"": ""version_control"",
+  ""tools"": [
+    ""mlflow""
+  ],
+  ""key_concepts"": [
+    ""experiment tracking"",
+    ""reproducibility"",
+    ""model versioning""
+  ],
+  ""evidence"": ""mlflow.set_experiment(\""bc-classifier\"")""
+}",23.8,,735,67,ok,True,True,version_control,mlflow,experiment tracking;reproducibility;model versioning,"mlflow.set_experiment(""bc-classifier"")",True,True,,False,False,0.5
+V2,w05_s011,5,week05_version_control_collaboration.md,Exercise 4 — Keep data and secrets out of the repo,"{
+  ""task_type"": ""other"",
+  ""tools"": [
+    ""git""
+  ],
+  ""key_concepts"": [
+    ""gitignore"",
+    ""untracked files"",
+    ""secrets""
+  ],
+  ""evidence"": ""mkdir -p data && echo \""day,rain\"" > data/weather.csv\necho \""SECRET=xyz\"" > .env""
+}",26.17,,759,79,ok,True,True,other,git,gitignore;untracked files;secrets,"mkdir -p data && echo ""day,rain"" > data/weather.csv
+echo ""SECRET=xyz"" > .env",True,True,,False,True,1.0
+V2,w05_s015,5,week05_version_control_collaboration.md,Exercise 7 — Team conflict: two members edit the same function,"{
+  ""task_type"": ""other"",
+  ""tools"": [],
+  ""key_concepts"": [
+    ""git merge"",
+    ""conflict resolution"",
+    ""branch management""
+  ],
+  ""evidence"": ""git merge feature/ada-threshold""
+}",21.96,,738,55,ok,True,True,other,,git merge;conflict resolution;branch management,git merge feature/ada-threshold,True,True,,False,False,0.0
+V2,w05_s022,5,week05_version_control_collaboration.md,Exercise 11 — Add a GitHub Actions workflow,"{
+  ""task_type"": ""version_control"",
+  ""tools"": [""git"", ""github"", ""github""],
+  ""key_concepts"": [""feature branch"", ""PR"", ""CI file""],
+  ""evidence"": ""Create the folder .github/workflows""
+}",20.85,,705,56,invalid,True,True,version_control,git;github;github,feature branch;PR;CI file,Create the folder .github/workflows,False,False,evidence is not an exact quote,False,False,0.0
+V2,w06_s016,6,week06_containerisation_deployment.md,Exercise 5 — Write the Dockerfile,"{
+  ""task_type"": ""other"",
+  ""tools"": [],
+  ""key_concepts"": [
+    ""Dockerfile"",
+    ""layer"",
+    ""cached""
+  ],
+  ""evidence"": ""paste the recipe — d""
+}",19.54,,698,51,invalid,True,True,other,,Dockerfile;layer;cached,paste the recipe — d,False,True,evidence is not an exact quote,False,False,0.0
+V2,w06_s020,6,week06_containerisation_deployment.md,Exercise 8 — Run the container and call it,"{
+  ""task_type"": ""other"",
+  ""tools"": [
+    ""docker""
+  ],
+  ""key_concepts"": [
+    ""Docker container"",
+    ""API running inside Docker"",
+    ""Port mapping""
+  ],
+  ""evidence"": ""docker run -p 8000:8000 --name rain""
+}",23.77,,708,73,invalid,True,True,other,docker,Docker container;API running inside Docker;Port mapping,docker run -p 8000:8000 --name rain,False,False,evidence is not an exact quote,False,False,0.0
+V3,w01_s006,1,week01_python_numpy_pandas_basics.md,2. Pandas Introduction,"{""task_type"": ""data_preparation"", ""tools"": [""pandas""], ""key_concepts"": [""loading data"", ""selecting columns"", ""grouping & aggregation""], ""evidence"": ""df.groupby('species')['sepal_length'].mean()""}",38.14,,1253,54,ok,True,True,data_preparation,pandas,loading data;selecting columns;grouping & aggregation,df.groupby('species')['sepal_length'].mean(),True,True,,True,True,1.0
+V3,w01_s007,1,week01_python_numpy_pandas_basics.md,3. Exercise: Sensor Data Analysis with NumPy,"{""task_type"": ""data_preparation"", ""tools"": [""numpy""], ""key_concepts"": [""temperature conversion"", ""mean calculation"", ""range calculation""], ""evidence"": ""combine all days into a single NumPy array (shape = (5, 8))""}",26.16,,1311,57,invalid,True,True,data_preparation,numpy,temperature conversion;mean calculation;range calculation,"combine all days into a single NumPy array (shape = (5, 8))",False,False,evidence is not an exact quote,False,False,0.0
+V3,w02_s015,2,week02_eda_to_pca.md,Data Cleaning,"{""task_type"": ""data_preparation"", ""tools"": [""pandas""], ""key_concepts"": [""missing values"", ""outliers"", ""quantile""], ""evidence"": ""clean_df.isna().any()""}",15.45,,1021,47,invalid,True,True,data_preparation,pandas,missing values;outliers;quantile,clean_df.isna().any(),True,True,tool not named in the text: pandas,False,False,0.0
+V3,w02_s020,2,week02_eda_to_pca.md,PCA Implementation,"{""task_type"": ""exploration_visualisation"", ""tools"": [""scikit-learn""], ""key_concepts"": [""PCA implementation"", ""standardization"", ""dimensionality reduction""], ""evidence"": ""PCA(n_components=2)""}",12.11,,908,50,ok,True,True,exploration_visualisation,scikit-learn,PCA implementation;standardization;dimensionality reduction,PCA(n_components=2),True,True,,True,True,1.0
+V3,w02_s011,2,week02_eda_to_pca.md,A. Distribution Plots,"{""task_type"": ""exploration_visualisation"", ""tools"": [""seaborn"", ""matplotlib""], ""key_concepts"": [""distribution plot"", ""histogram"", ""kernel density estimation""], ""evidence"": ""sns.histplot(df['Purchase'], bins=50, kde=True)""}",12.9,,864,62,ok,True,True,exploration_visualisation,seaborn;matplotlib,distribution plot;histogram;kernel density estimation,"sns.histplot(df['Purchase'], bins=50, kde=True)",True,True,,True,True,1.0
+V3,w03_s004,3,week03_retail_and_weather_modelling.md,Required Tasks,"{""task_type"": ""data_preparation"", ""tools"": [""pandas""], ""key_concepts"": [""missing values"", ""date features"", ""categorical vs continuous""], ""evidence"": ""Load data from `weatherAUS.csv`""}",14.42,,972,51,invalid,True,True,data_preparation,pandas,missing values;date features;categorical vs continuous,Load data from `weatherAUS.csv`,False,True,evidence is not an exact quote,False,False,0.0
+V3,w03_s007,3,week03_retail_and_weather_modelling.md,Step-by-Step Tasks,"{""task_type"": ""other"", ""tools"": [], ""key_concepts"": [""categorical variables"", ""outlier treatment"", ""feature scaling""], ""evidence"": ""Run the notebook and prepare 2 questions about any unclear steps""}",14.86,,977,49,ok,True,True,other,,categorical variables;outlier treatment;feature scaling,Run the notebook and prepare 2 questions about any unclear steps,True,True,,False,False,0.0
+V3,w04_s005,4,week04_model_evaluation_optimisation.md,Exercise 2 — Fall into (and out of) the accuracy trap,"{""task_type"": ""evaluation"", ""tools"": [""scikit-learn""], ""key_concepts"": [""accuracy"", ""recall"", ""imbalanced data""], ""evidence"": ""dummy  recall CANCER  : 0.0""}",20.98,,1183,51,ok,True,True,evaluation,scikit-learn,accuracy;recall;imbalanced data,dummy  recall CANCER  : 0.0,True,True,,True,True,1.0
+V3,w04_s009,4,week04_model_evaluation_optimisation.md,"Exercise 5 — Spot the leak 🔍 (predict, then measure)","{""task_type"": ""modelling"", ""tools"": [""scikit-learn""], ""key_concepts"": [""feature selection"", ""cross-validation"", ""pipeline""], ""evidence"": ""move `SelectKBest` **inside** a `Pipeline` so it re-runs per fold""}",24.04,,1256,60,ok,True,True,modelling,scikit-learn,feature selection;cross-validation;pipeline,move `SelectKBest` **inside** a `Pipeline` so it re-runs per fold,True,True,,False,True,1.0
+V3,w04_s017,4,week04_model_evaluation_optimisation.md,Exercise 10 — Log and compare runs,"{""task_type"": ""modelling"", ""tools"": [""mlflow"", ""scikit-learn""], ""key_concepts"": [""random-forest"", ""log_params"", ""log_metric""], ""evidence"": ""mlflow.log_params(cfg)\nmlflow.log_metric(\""f1\"", f1)\nmlflow.log_metric(\""roc_auc\"", roc_auc_score(y_test, m.predict_proba(X_test)[:,1]))\nmlflow.sklearn.log_model(m, name=\""model\"")""}",29.78,,1218,102,invalid,True,True,modelling,mlflow;scikit-learn,random-forest;log_params;log_metric,"mlflow.log_params(cfg)
+mlflow.log_metric(""f1"", f1)
+mlflow.log_metric(""roc_auc"", roc_auc_score(y_test, m.predict_proba(X_test)[:,1]))
+mlflow.sklearn.log_model(m, name=""model"")",False,True,evidence is not an exact quote,False,False,0.0
+V3,w05_s011,5,week05_version_control_collaboration.md,Exercise 4 — Keep data and secrets out of the repo,"{""task_type"": ""version_control"", ""tools"": [""git""], ""key_concepts"": [""gitignore"", ""untracked files"", ""secrets""], ""evidence"": ""mkdir -p data && echo \""day,rain\"" > data/weather.csv\n echo \""SECRET=xyz\"" > .env\n cat > .gitignore << 'EOF'\n data/\n .env\n __py\n""}",29.95,,1242,84,invalid,True,True,version_control,git,gitignore;untracked files;secrets,"mkdir -p data && echo ""day,rain"" > data/weather.csv
+ echo ""SECRET=xyz"" > .env
+ cat > .gitignore << 'EOF'
+ data/
+ .env
+ __py
+",False,False,evidence is not an exact quote,False,False,0.0
+V3,w05_s015,5,week05_version_control_collaboration.md,Exercise 7 — Team conflict: two members edit the same function,"{""task_type"": ""version_control"", ""tools"": [""git""], ""key_concepts"": [""branch"", ""merge"", ""conflict resolution""], ""evidence"": ""git merge feature/ada-threshold (should succeed)""}",20.55,,1221,48,invalid,True,True,version_control,git,branch;merge;conflict resolution,git merge feature/ada-threshold (should succeed),False,False,evidence is not an exact quote,False,False,0.0
+V3,w05_s022,5,week05_version_control_collaboration.md,Exercise 11 — Add a GitHub Actions workflow,"{""task_type"": ""version_control"", ""tools"": [""git""], ""key_concepts"": [""feature branch"", ""pull request"", ""CI file""], ""evidence"": ""Create the folder .github/workflows.""}",19.94,,1188,46,invalid,True,True,version_control,git,feature branch;pull request;CI file,Create the folder .github/workflows.,False,False,evidence is not an exact quote,False,False,0.0
+V3,w06_s016,6,week06_containerisation_deployment.md,Exercise 5 — Write the Dockerfile,"{""task_type"": ""other"", ""tools"": [""docker""], ""key_concepts"": [""layer"", ""cached"", ""dependencies""], ""evidence"": ""paste the recipe — d""}",17.7,,1181,39,invalid,True,True,other,docker,layer;cached;dependencies,paste the recipe — d,False,True,evidence is not an exact quote,False,False,0.0
+V3,w06_s020,6,week06_containerisation_deployment.md,Exercise 8 — Run the container and call it,"{""task_type"": ""deployment"", ""tools"": [""docker"", ""docker-compose"", ""uvicorn""], ""key_concepts"": [""containerization"", ""API running inside Docker"", ""port mapping""], ""evidence"": ""docker run --name rain -p 8000:8000 --name rain python -m uvicorn app:app --reload""}",24.49,,1191,77,invalid,True,True,deployment,docker;docker-compose;uvicorn,containerization;API running inside Docker;port mapping,docker run --name rain -p 8000:8000 --name rain python -m uvicorn app:app --reload,False,False,evidence is not an exact quote,False,False,0.0

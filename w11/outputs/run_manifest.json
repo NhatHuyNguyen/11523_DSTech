@@ -1,0 +1,41 @@
+{
+  "mode": "replay",
+  "date": "2026-10-22 01:52",
+  "chat_model": "qwen2.5:3b",
+  "embed_model": "nomic-embed-text:latest",
+  "ollama_version": "not queried (replay mode)",
+  "model_digests": {},
+  "chat_endpoint": "/api/chat, stream false, format = JSON schema, system + one user message",
+  "embed_endpoint": "/api/embed with model + input -> embeddings (768 numbers, unit length)",
+  "options": {
+    "temperature": 0,
+    "seed": 11523,
+    "num_predict": 300,
+    "num_ctx": 4096
+  },
+  "random_seed": 11523,
+  "max_section_chars": 1500,
+  "chunking": "split at #/##/### outside code, then 800/150 (main) and 400/80 (comparison)",
+  "few_shot_sections": [
+    "w05_s014",
+    "w02_s016"
+  ],
+  "frozen_prompt": "V3",
+  "prompt_sha256": "62c49f7bcb9e6740b873d7b1d212cb342b2c4d00ffac5e173cf62483e898b2ed",
+  "python": "3.11.17",
+  "platform": "Windows-10-10.0.19044-SP0",
+  "packages": {
+    "pandas": "3.0.6",
+    "numpy": "2.4.6",
+    "requests": "2.34.2",
+    "pydantic": "2.14.1",
+    "chromadb": "1.5.9",
+    "matplotlib": "3.11.2"
+  },
+  "llm_requests": 156,
+  "llm_seconds_total": 2691.65,
+  "embedding_requests": 856,
+  "embedding_seconds_total": 338.92,
+  "extraction_mean_s": 16.25,
+  "extraction_median_s": 15.93
+}

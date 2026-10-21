@@ -1,0 +1,12 @@
+id,question,week,source_file,section_id,section,quote,answerable
+Q01,How do I calculate the mean sepal length for each species?,1,week01_python_numpy_pandas_basics.md,w01_s006,2. Pandas Introduction,mean_sepal = df.groupby('species')['sepal_length'].mean(),True
+Q02,Which dataset did we use to practise loading data with pandas in Week 1?,1,week01_python_numpy_pandas_basics.md,w01_s006,2. Pandas Introduction,We’ll use the **Iris dataset** (a classic dataset in Data Science).,True
+Q03,How were missing values in Product_Category_2 filled in the retail EDA?,2,week02_eda_to_pca.md,w02_s015,Data Cleaning,clean_df['Product_Category_2'] = clean_df['Product_Category_2'].fillna(-1),True
+Q04,How did we drop rows that are missing critical fields in the Black Friday data?,2,week02_eda_to_pca.md,w02_s015,Data Cleaning,"clean_df = df.dropna(subset=['Product_Category_1', 'Purchase'])",True
+Q05,Which tool did the Week 3 retail notebook use for hyperparameter tuning?,3,week03_retail_and_weather_modelling.md,w03_s007,Step-by-Step Tasks,Hyperparameter tuning using GridSearchCV,True
+Q06,Which baseline model shows the accuracy trap in Week 4?,4,week04_model_evaluation_optimisation.md,w04_s005,Exercise 2 — Fall into (and out of) the accuracy trap,"Use `DummyClassifier(strategy=""most_frequent"")`.",True
+Q07,How do I open the MLflow dashboard to compare runs?,4,week04_model_evaluation_optimisation.md,w04_s017,Exercise 10 — Log and compare runs,Run **`mlflow ui`** in the same folder and open `localhost:5000`,True
+Q08,Which files should .gitignore list in the Week 5 exercise?,5,week05_version_control_collaboration.md,w05_s011,Exercise 4 — Keep data and secrets out of the repo,"Create `.gitignore` and list: `data/`, `.env`, `__pycache__/`, `*.pyc`.",True
+Q09,How do I cancel a merge if I want to restart?,5,week05_version_control_collaboration.md,w05_s015,Exercise 7 — Team conflict: two members edit the same function,`git merge --abort` = cancel the merge if you want to restart,True
+Q10,What does -p 8000:8000 mean when I run the container?,6,week06_containerisation_deployment.md,w06_s020,Exercise 8 — Run the container and call it,`-p 8000:8000` = laptop port 8000 → container port 8000,True
+Q11,How do we deploy the rain API to Kubernetes?,,,,,,False
